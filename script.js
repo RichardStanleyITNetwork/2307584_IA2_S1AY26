@@ -85,7 +85,7 @@ const products = [
   {id:6, name:"Genshin Impact", price:29.99, image:"Assets/genshin.jpg"},
   {id:7, name:"Gran Turismo 7", price:59.99, image:"Assets/gt7.jpg"},
   {id:8, name:"GTA V", price:39.99, image:"Assets/gta.png"},
-  {id:9, name:"Minecraft", price:19.99, image:"Assets/minecraft.jpg"},
+  {id:9, name:"Minecraft", price:19.99, image:"/Assets/minecraft.jpg"},
   {id:10, name:"Persona 5", price:49.99, image:"Assets/persona.jpg"},
   {id:11, name:"Spider-Man 2", price:69.99, image:"Assets/spider.jpg"},
   {id:12, name:"Chaos ZeroNightmare", price:29.99, image:"Assets/czn.jpg"},
@@ -239,4 +239,5 @@ clearBtn.addEventListener('click', () => {
     CheckPage.classList.remove('active');
   }
 });
+
 
